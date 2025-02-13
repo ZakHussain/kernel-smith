@@ -1,6 +1,6 @@
 'use client'
 import React from "react";
-import { Terminal, Cpu, Hammer, Code2, Flame } from "lucide-react";
+import { Terminal, Cpu, Flame } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import Sparks from "@/components/sparks";
