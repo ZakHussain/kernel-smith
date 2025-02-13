@@ -96,7 +96,7 @@ const HomePage = () => {
               <span className="text-amber-500"> Kernel</span>
             </h1>
             <p className="mt-6 text-xl text-zinc-300 max-w-3xl mx-auto">
-              A forge for crafting optimized ML deployments across any hardware.
+              A forge for crafting optimized ML code across any hardware.
               Let KernelSmith be your master smith in hardware optimization.
             </p>
             <div className="mt-10 flex justify-center gap-4">
@@ -218,6 +218,7 @@ const HomePage = () => {
               </span>
             </div>
             <div className="flex space-x-6">
+              <WaitlistDialog />
               {/* <a href="#" className="text-zinc-400 hover:text-amber-500">
                 GitHub
               </a>
