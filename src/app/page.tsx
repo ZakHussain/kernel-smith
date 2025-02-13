@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import { Terminal, Cpu, Flame } from "lucide-react";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import Sparks from "@/components/sparks";
 import WaitlistDialog from "@/components/WaitlistDialog";
@@ -63,7 +63,7 @@ const HomePage = () => {
               </span>
             </div>
             <nav className="flex space-x-6">
-              <a
+              {/* <a
                 href="#features"
                 className="text-zinc-400 hover:text-amber-500"
               >
@@ -74,7 +74,7 @@ const HomePage = () => {
               </a>
               <a href="#docs" className="text-zinc-400 hover:text-amber-500">
                 Docs
-              </a>
+              </a> */}
               <WaitlistDialog />
             </nav>
           </div>
@@ -100,10 +100,10 @@ const HomePage = () => {
               Let KernelSmith be your master smith in hardware optimization.
             </p>
             <div className="mt-10 flex justify-center gap-4">
-              <Button className="bg-amber-500 hover:bg-amber-600 text-black">
+              {/* <Button className="bg-amber-500 hover:bg-amber-600 text-black">
                 View Demo
                 <Terminal className="ml-2 h-4 w-4" />
-              </Button>
+              </Button> */}
               <WaitlistDialog />
             </div>
           </div>
@@ -197,10 +197,10 @@ const HomePage = () => {
                 On the Anvil
               </h3>
               <ul className="space-y-2 text-zinc-400">
-                <li>📅 CLI Tools - Q2 2024</li>
-                <li>📅 Python SDK - Q2 2024</li>
+                <li>📅 CLI Tools - Q2 2025</li>
+                <li>📅 Python SDK - Q2 2025</li>
                 <li>📅 Documentation - Ongoing</li>
-                <li>📅 Early Access Program - Q3 2024</li>
+                <li>📅 Early Access Program - Q3 2025</li>
               </ul>
             </div>
           </div>
@@ -218,7 +218,7 @@ const HomePage = () => {
               </span>
             </div>
             <div className="flex space-x-6">
-              <a href="#" className="text-zinc-400 hover:text-amber-500">
+              {/* <a href="#" className="text-zinc-400 hover:text-amber-500">
                 GitHub
               </a>
               <a href="#" className="text-zinc-400 hover:text-amber-500">
@@ -226,7 +226,7 @@ const HomePage = () => {
               </a>
               <a href="#" className="text-zinc-400 hover:text-amber-500">
                 Contact
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
